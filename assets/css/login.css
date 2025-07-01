@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+    background: url(../images/fundo.jfif);
+    background-size: cover;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px groove #646461;
+}
+
+h1 {
+    color: #fdf5f5;
+    text-shadow: 4px 4px orange, 7px 7px #000;
+    font-size: 3rem;
+
+    margin: 1rem 0;
+}
+
+input {
+    width: 100%;
+    max-width: 18rem;
+    font-size: 1rem;
+    padding: .4rem;
+    border: 2px solid black;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    outline-color: orange;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+}
+
+button {
+    width: 100%;
+    max-width: 18rem;
+    font-size: 1.3rem;
+    padding: .5rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    background-color: orange;
+    color: #fdf5f5;
+    text-shadow: 1.6px 1.6px #000;
+    cursor: pointer;
+    border: 2px solid black;
+    text-transform: uppercase;
+
+}
+
+button:disabled {
+    background-color: #7e7e7e;
+    cursor: auto;
+    color: #646461;
+
+}
